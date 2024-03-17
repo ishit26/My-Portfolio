@@ -27,7 +27,7 @@ const MobileNav = ({isOpen, toggleMenu}) => {
                     <a className='menu-item' href="">Contact Me</a>
                 </li>
 
-                <button className="contact-btn" onClick={() => { window.open("https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:36577c13-6216-36e0-8d65-eb0af9b560e5", "_blank")}}>
+                <button className="contact-btn" onClick={() => { window.open("https://acrobat.adobe.com/link/review?uri=urn%3Aaaid%3Ascds%3AUS%3A9f528430-e239-312c-8cd5-093461980c05", "_blank")}}>
                     Resume
                 </button>
             </ul>
