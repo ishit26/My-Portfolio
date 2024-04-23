@@ -31,7 +31,7 @@ const Navbar = () => {
                         <a className="menu-item" href='#contactme'>Contact Me</a>
                     </li>
 
-                    <button className="contact-btn" onClick={() => { window.open("https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:1c01ccfa-525f-3182-a99e-92bfda73c2d6", "_blank")}}>
+                    <button className="contact-btn" onClick={() => { window.open("https://acrobat.adobe.com/id/urn:aaid:sc:AP:1ee2c3d2-6529-492f-b0bc-98aa59498323", "_blank")}}>
                         Resume
                     </button>
                 </ul>
